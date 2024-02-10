@@ -62,6 +62,9 @@
       .font_25 {
         font-size: 25px;
       }
+      .font_22 {
+        font-size: 22px;
+      }
       .font_35 {
         font-size: 35px;
       }
@@ -107,8 +110,14 @@
         margin-bottom: 0;
         font-weight: 900;
         font-family: "Satisfy", cursive;}
-     
-
+    
+        .wrapper__border{
+            text-align: center;
+        }
+        .border__01{
+            border-bottom: 2px solid #744001;
+            display: inline-block;
+        }
      @media(max-width:380px){
         .font_35 {
             font-size: 25px;
