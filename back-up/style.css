@@ -17,31 +17,30 @@
       }
       .heading_01 {
         text-align: center;
-        background: rgb(63, 46, 7);
+        background: rgb(251, 215, 131);
         background: linear-gradient(
           90deg,
-          rgb(54, 39, 2) 10%,
-          rgb(116, 64, 1) 54%,
-          rgb(54, 34, 5) 100%
+          rgba(251, 215, 131, 1) 10%,
+          rgb(245, 177, 94) 54%,
+          rgb(243, 172, 72) 100%
         );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-family: "Parisienne", cursive;
         font-weight: bold;
-        /* font-family: "Great Vibes", cursive; */
+        font-family: "Great Vibes", cursive;
       }
       .heading_02 {
-        background: rgb(63, 46, 7);
+        background: rgb(251, 215, 131);
         background: linear-gradient(
           90deg,
-          rgb(54, 39, 2) 10%,
-          rgb(116, 64, 1) 54%,
-          rgb(54, 34, 5) 100%
+          rgba(251, 215, 131, 1) 10%,
+          rgb(245, 177, 94) 54%,
+          rgb(243, 172, 72) 100%
         );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 12px;
-        font-weight: 900;
+        font-size: 16px;
         text-align: center;
         font-family: "Satisfy", cursive;
       }
@@ -49,13 +48,13 @@
         background-image: url("./bg-final-01.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
-        
+        padding: 100px 40px 50px;
       }
         .bg_02 {
         background-image: url("./bg-final-01.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
-
+        padding: 100px 40px 50px;
       }
       .font_25 {
         font-size: 25px;
@@ -66,9 +65,6 @@
       .font_18 {
         font-size: 18px;
       }
-      .font_16 {
-        font-size: 16px;
-      }
       .font_40 {
         font-size: 35px;
         font-weight: 800;
@@ -76,6 +72,4 @@
       .font_great{ font-family: "Great Vibes", cursive;}
       .font_paris{font-family: "Parisienne", cursive; }
       .font_satisfy{  font-family: "Satisfy", cursive;}
-     .content_box{
-        padding: 80px 40px 60px;
-     }
+     
