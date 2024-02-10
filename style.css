@@ -2,6 +2,7 @@
       @import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Protest+Riot&family=Satisfy&display=swap");
       @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
       @import url("https://fonts.googleapis.com/css2?family=Protest+Riot&family=Satisfy&display=swap");
+      @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mochiy+Pop+One&family=Parisienne&family=Protest+Riot&family=Satisfy&display=swap');
       * {
         padding: 0;
         margin: 0;
@@ -30,7 +31,7 @@
         font-weight: bold;
         /* font-family: "Great Vibes", cursive; */
       }
-      .heading_02 {
+      .heading_02,.text_dark {
         background: rgb(63, 46, 7);
         background: linear-gradient(
           90deg,
@@ -77,5 +78,17 @@
       .font_paris{font-family: "Parisienne", cursive; }
       .font_satisfy{  font-family: "Satisfy", cursive;}
      .content_box{
-        padding: 80px 40px 60px;
+        padding: 90px 40px 150px;
+     }
+
+     .address{
+        background-color: rgb(255 255 255 / 48%) !important;
+        border-radius: 10px;
+        padding: 10px;
+    
+     }
+     .address h1{
+        font-family: "Mochiy Pop One", sans-serif;
+        font-size: 12px;
+        line-height: normal;
      }
