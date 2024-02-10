@@ -70,10 +70,7 @@
       .font_16 {
         font-size: 16px;
       }
-      .font_40 {
-        font-size: 35px;
-        font-weight: 800;
-      }
+ 
       .font_great{ font-family: "Great Vibes", cursive;}
       .font_paris{font-family: "Parisienne", cursive; }
       .font_satisfy{  font-family: "Satisfy", cursive;}
@@ -91,4 +88,19 @@
         font-family: "Mochiy Pop One", sans-serif;
         font-size: 12px;
         line-height: normal;
+     }
+
+     @media(max-width:380px){
+        .font_35 {
+            font-size: 25px;
+          }
+          .font_25 {
+            font-size: 20px;
+          }
+          .font_16 {
+            font-size: 14px;
+        }
+        .content_box {
+            padding: 90px 30px 110px;
+        }
      }
