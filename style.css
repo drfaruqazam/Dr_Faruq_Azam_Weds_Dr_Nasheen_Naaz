@@ -10,7 +10,8 @@
       }
       html {
         font-family: "Satisfy", cursive;
-        overflow-x: clip;
+        overflow-x: clip !important;
+
       }
       .container {
         max-width: 414px;
@@ -89,6 +90,24 @@
         font-size: 12px;
         line-height: normal;
      }
+     .phone{
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        background: rgb(63, 46, 7);
+        background: linear-gradient(
+          90deg,
+          rgb(54, 39, 2) 10%,
+          rgb(116, 64, 1) 54%,
+          rgb(54, 34, 5) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;   
+        font-size: 16px;
+        margin-bottom: 0;
+        font-weight: 900;
+        font-family: "Satisfy", cursive;}
+     
 
      @media(max-width:380px){
         .font_35 {
@@ -103,4 +122,13 @@
         .content_box {
             padding: 90px 30px 110px;
         }
+        html{
+            overflow-x: clip;
+        }
+        .container {
+            max-width: 100%;
+            width: 100%;
+        }
+        
+        
      }
