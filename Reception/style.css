@@ -12,6 +12,10 @@
         font-family: 'ams';
         src: url(./font/amsterdam-personal.ttf);
       }
+      @font-face {
+        font-family: 'lucy';
+        src: url(./font/lucysaid.ttf);
+      }
       * {
         padding: 0;
         margin: 0;
@@ -37,7 +41,7 @@
         background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%) text;
         font-family: "Parisienne", cursive;
         font-weight: bold;
-        font-family: 'black';
+        font-family: 'black'; 
         /* font-family: 'ams'; */
         /* font-family: "Great Vibes", cursive; */
       }
@@ -117,7 +121,7 @@
             border-bottom: 2px solid #ffa537;
             display: inline-block;
         }
-     @media(max-width:380px){
+     @media(max-width:405px){
         .font_35 {
             font-size: 25px;
           }
