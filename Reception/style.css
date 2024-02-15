@@ -121,7 +121,7 @@
             border-bottom: 2px solid #ffa537;
             display: inline-block;
         }
-     @media(max-width:405px){
+     @media(max-width:406px){
         .font_35 {
             font-size: 25px;
           }
