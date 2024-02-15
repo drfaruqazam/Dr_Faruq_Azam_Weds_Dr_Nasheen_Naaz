@@ -4,14 +4,6 @@
       @import url("https://fonts.googleapis.com/css2?family=Protest+Riot&family=Satisfy&display=swap");
       @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mochiy+Pop+One&family=Parisienne&family=Protest+Riot&family=Satisfy&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mochiy+Pop+One&family=Parisienne&family=Protest+Riot&family=Satisfy&family=Tangerine:wght@400;700&display=swap');
-      @font-face {
-        font-family: 'black';
-        src: url(./font/back-to-black.ttf);
-      }
-      @font-face {
-        font-family: 'ams';
-        src: url(./font/amsterdam-personal.ttf);
-      }
       * {
         padding: 0;
         margin: 0;
@@ -21,9 +13,6 @@
         font-family: "Satisfy", cursive;
         overflow-x: clip !important;
 
-      }
-      body{
-        overflow-x: hidden;
       }
       .container {
         max-width: 414px;
@@ -37,8 +26,6 @@
         background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%) text;
         font-family: "Parisienne", cursive;
         font-weight: bold;
-        font-family: 'black';
-        /* font-family: 'ams'; */
         /* font-family: "Great Vibes", cursive; */
       }
       .heading_02,.text_dark {
@@ -50,16 +37,15 @@
         font-weight: 900;
         text-align: center;
         font-family: "Satisfy", cursive;
-        
       }
       .bg_01 {
-        background-image: url("./bg_04.jpg");
+        background-image: url("./bg_03.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
         
       }
         .bg_02 {
-        background-image: url("./bg_04.jpg");
+        background-image: url("./bg_02.png");
         background-size: cover;
         background-repeat: no-repeat;
 
@@ -84,7 +70,7 @@
       .font_paris{font-family: "Parisienne", cursive; }
       .font_satisfy{  font-family: "Satisfy", cursive;}
      .content_box{
-        padding: 90px 40px 90px;
+        padding: 120px 40px 150px;
      }
 
      .address{
@@ -128,7 +114,7 @@
             font-size: 14px;
         }
         .content_box {
-            padding: 90px 30px 90px;
+            padding: 90px 30px 110px;
         }
         html,body{
             overflow-x: clip;
@@ -138,8 +124,6 @@
             width: 100%;
             overflow-x: hidden;
         }
-        .font_22 {
-          font-size: 18px;
-      }
+        
         
      }
