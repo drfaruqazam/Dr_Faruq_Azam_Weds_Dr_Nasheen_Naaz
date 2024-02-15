@@ -147,3 +147,20 @@
       }
         
      }
+
+     @media(max-width:358px){
+      .content_box {
+        padding: 80px 30px 80px;
+    }
+      .font_35 {
+        font-size: 22px !important;
+    }
+     }
+
+     
+     @media(max-width:358px){
+      .content_box {
+        padding: 60px 30px 60px;
+    }
+  
+     }
