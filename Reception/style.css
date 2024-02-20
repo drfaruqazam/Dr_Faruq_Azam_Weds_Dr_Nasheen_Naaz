@@ -16,8 +16,6 @@
         font-family: 'lucy';
         src: url(./font/lucysaid.ttf);
       }
-
-
       * {
         padding: 0;
         margin: 0;
@@ -37,31 +35,27 @@
       }
       .heading_01 {
         text-align: center;
-        -webkit-text-fill-color: transparent;
         font-weight: bold;
         font-family: "Great Vibes", cursive;
-        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%);
-        -webkit-background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%) text;
         font-family: "Parisienne", cursive;
         font-weight: bold;
         font-family: 'black'; 
         /* font-family: 'ams'; */
         /* font-family: "Great Vibes", cursive; */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;  
       }
       .heading_02,.text_dark {
-        -webkit-text-fill-color: transparent;
         font-weight: bold;
         font-family: "Great Vibes", cursive;
-        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%);
-        -webkit-background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%) text;
         font-size: 12px;
         font-weight: 900;
         text-align: center;
         font-family: "Satisfy", cursive;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;  
         
       }
       .bg_01 {
@@ -114,10 +108,9 @@
         -webkit-text-fill-color: transparent;
         font-weight: bold;
         font-family: "Great Vibes", cursive;
-        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%);
-        -webkit-background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%);
+        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%) text;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; 
+        -webkit-text-fill-color: transparent;   
         font-size: 16px;
         margin-bottom: 0;
         font-weight: 900;
