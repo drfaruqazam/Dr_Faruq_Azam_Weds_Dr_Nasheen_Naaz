@@ -143,9 +143,18 @@ happiness understanding and success. Aameen
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-     $(function() {
-  AOS.init();
+   $(function() {
+  AOS.init({
+    duration: 1200
+  });
+
+
+
+  onElementHeightChange(document.body, function(){
+    AOS.refresh();
+  });
 });
+
     </script>
   </body>
 </html>
