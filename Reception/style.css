@@ -37,25 +37,27 @@
         text-align: center;
         font-weight: bold;
         font-family: "Great Vibes", cursive;
-        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%);
+
         font-family: "Parisienne", cursive;
         font-weight: bold;
         font-family: 'black'; 
-        /* font-family: 'ams'; */
-        /* font-family: "Great Vibes", cursive; */
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;  
+       
+          /** TEXT GRADIENT */ color: #c78330; background-image: -webkit-linear-gradient(135deg, #c78330 7%, #f2bf77 81%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+          
+        
       }
       .heading_02,.text_dark {
         font-weight: bold;
         font-family: "Great Vibes", cursive;
-        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%);
+       
         font-size: 12px;
         font-weight: 900;
         text-align: center;
         font-family: "Satisfy", cursive;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;  
+     
+          /** TEXT GRADIENT */ color: #c78330; background-image: -webkit-linear-gradient(135deg, #c78330 7%, #f2bf77 81%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+          
+        
         
       }
       .bg_01 {
@@ -108,13 +110,15 @@
         -webkit-text-fill-color: transparent;
         font-weight: bold;
         font-family: "Great Vibes", cursive;
-        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;   
         font-size: 16px;
         margin-bottom: 0;
         font-weight: 900;
-        font-family: "Satisfy", cursive;}
+        font-family: "Satisfy", cursive;
+        
+          /** TEXT GRADIENT */ color: #c78330; background-image: -webkit-linear-gradient(135deg, #c78330 7%, #f2bf77 81%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+          
+        
+      }
     
         .wrapper__border{
             text-align: center;
