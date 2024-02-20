@@ -37,7 +37,7 @@
         text-align: center;
         font-weight: bold;
         font-family: "Great Vibes", cursive;
-        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%) text;
+        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%);
         font-family: "Parisienne", cursive;
         font-weight: bold;
         font-family: 'black'; 
@@ -49,7 +49,7 @@
       .heading_02,.text_dark {
         font-weight: bold;
         font-family: "Great Vibes", cursive;
-        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%) text;
+        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%);
         font-size: 12px;
         font-weight: 900;
         text-align: center;
@@ -108,7 +108,7 @@
         -webkit-text-fill-color: transparent;
         font-weight: bold;
         font-family: "Great Vibes", cursive;
-        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%) text;
+        background: linear-gradient(90deg, rgb(251, 215, 131) 10%, rgb(245, 177, 94) 54%, rgb(243, 172, 72) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;   
         font-size: 16px;
